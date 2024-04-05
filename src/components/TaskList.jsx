@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { deleteTask } from "../redux/reducers/taskSlice";
+import { deleteTask } from "../redux/taskSlice";
 import { styles } from "../style";
 import back from "../assets/back.svg";
 import { useNavigate } from "react-router-dom";
